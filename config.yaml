@@ -19,7 +19,7 @@ params:
   description: 
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: logos/aquatest.svg
     link: /
   font:
     name: "Open Sans"
@@ -46,8 +46,8 @@ params:
   navbar:
   - title: Features
     url: /
-  - title: Pricing
-    url: /
+  - title: Blog
+    url: /blog/
   - title: Dropdown
     sublinks:
     - title: Dropdown item
@@ -112,7 +112,7 @@ params:
       job: HR Manager
       img: 3
   section5: true
-  footer:
+  footer: 
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg
     # Social Media Title
