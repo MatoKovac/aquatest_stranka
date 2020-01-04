@@ -1,3 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "meta.html" . }}
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    {{ partial "css.html" . }}
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+
+    {{ block "main" . }}
+    {{ end }}
+
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+
+    {{ if .Site.Params.sidebar }}
+    {{ partial "sidebar.html" . }}
+    {{ end }}
+
+    {{ partial "javascript.html" . }}
+ 
+
 {{ .Content }}
 
 {{ if .IsHome }}
@@ -5,11 +31,17 @@
 {{ else }}
 {{ $.Scratch.Set "pages" .Pages }}
 {{ end }}
-<ul>
+<ul class="link-list">
   {{ range (where ($.Scratch.Get "pages") "Section" "!=" "") }}
   <li>
-    <span class="date">{{ .Date.Format "2006/01/02" }}</span>
+    <div style="font-size:20px; margin-left:10%;font-family: 'Open Sans', sans-serif;">
+      
+    
+    <span class="date">{{ .Date.Format "2006-01-02" }}</span>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </div>
   </li>
   {{ end }}
 </ul>
+</body>
+</html>

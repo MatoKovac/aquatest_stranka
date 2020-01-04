@@ -9,9 +9,9 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg8"
    version="1.1"
-   viewBox="0 0 69.489899 14.207066"
-   height="14.207067mm"
-   width="69.489899mm"
+   viewBox="0 0 79.216248 12.835466"
+   height="12.835466mm"
+   width="79.216248mm"
    sodipodi:docname="aquatest.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <sodipodi:namedview
@@ -27,9 +27,9 @@
      inkscape:window-height="1024"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="3.7352992"
-     inkscape:cx="33.14834"
-     inkscape:cy="36.503164"
+     inkscape:zoom="2.2208212"
+     inkscape:cx="117.3856"
+     inkscape:cy="65.863081"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,6 +60,6 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;font-family:'Latin Modern Mono Light';-inkscape-font-specification:'Latin Modern Mono Light,  Bold';fill:#168b98;fill-opacity:1;stroke-width:0.26458332"
          y="52.07143"
          x="68.035713"
-         id="tspan10">Aquatest</tspan></text>
+         id="tspan10">AQUA-TEST</tspan></text>
   </g>
 </svg>
