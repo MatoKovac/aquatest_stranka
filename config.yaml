@@ -1,7 +1,7 @@
 ignoreFiles: ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-baseURL: http://something-fresh.org/
+baseURL: https://MatoKovac.github.io/
 languageCode: en-us
-title: Hugo Fresh Theme
+title: Aqua-test
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
@@ -36,12 +36,12 @@ params:
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
-    clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+#    clientlogos:
+#    - systek
+#    - tribe
+#    - kromo
+#    - infinite
+#    - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Home
@@ -119,15 +119,8 @@ params:
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
-      # Icons are from Font Awesome
-      icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
     - link: https://facebook.com/#
       icon: facebook
-    - link: https://twitter.com/lucperkins
-      icon: twitter
     - link: https://bitbucket.org/#
       icon: bitbucket
     bulmalogo: false
@@ -141,4 +134,4 @@ params:
         title: "Blog"
         links:
         - text: Latest articles
-          link: /blog/first
+          link: /blog/
