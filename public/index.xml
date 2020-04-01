@@ -1,43 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aqua-test</title>
+    <title>Academic</title>
     <link>/</link>
-    <description>Recent content on Aqua-test</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Academic</title>
+      <link>/</link>
+    </image>
     
     <item>
-      <title>skuska</title>
-      <link>/post/skuska/</link>
-      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/post/skuska/</guid>
-      <description></description>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&#39;t need it.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    
-    <item>
-      <title>AGB</title>
-      <link>/agb/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/agb/</guid>
-      <description>§1 Lorem Bacon ipsum dolor amet pig pork hamburger tenderloin burgdoggen spare ribs bacon pancetta pork loin tail turducken. Chicken pastrami jerky tongue ball tip strip steak. Ball tip alcatra turkey, cupim strip steak swine short loin tenderloin pancetta corned beef ribeye cow short ribs. Turkey turducken flank filet mignon beef ribs pastrami rump, andouille prosciutto picanha kevin strip steak. Corned beef fatback landjaeger hamburger alcatra, bacon buffalo tongue cow biltong salami sirloin swine.</description>
+      <title>Terms</title>
+      <link>/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/terms/</guid>
+      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&#39;t need it.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
