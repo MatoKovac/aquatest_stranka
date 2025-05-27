@@ -16,5 +16,8 @@ autolink = true
 #   1: Netlify (requires that the site is hosted by Netlify)
 #   2: formspree.io
 email_form = 0
+
+overlay_img = "IMG_9033.jpg"  # Name of image in `static/img/`.
+
 +++
 
